@@ -1,0 +1,98 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(33, 33, 36);
+    place-items: center;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:darkslateblue;
+}
+
+
+
+
+footer {
+    background-color: rgb(33, 33, 36);
+    color: white;
+}
+
+h1 {text-align: center;}
+header {text-align: center;}
+footer {text-align: center;}
+h2 {text-align: center}
+p {text-align: center;}
+
+
+.big-link {
+    font-size: 2rem;
+}
+
+.red-boi1 {
+    color: red;
+}
+
+.red-boi2 {
+    color: red;
+}
+
+.red-boi3 {
+    color: red;
+}
+
+.red-boi4 {
+    color: red;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.gallery1 img {
+    width: 100%;
+}
+
+.gallery3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.gallery3 img {
+    width: 100%
+}
+
+.gallery4 {
+    display: grid;
+    grid-template-columns: 40%;
+    place-items: center;
+}
+
+.gallery4 img {
+    width: 100%
+}
+
+.homie {
+    color:black
+}
